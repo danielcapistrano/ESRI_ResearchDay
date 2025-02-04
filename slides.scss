@@ -1,0 +1,138 @@
+/*-- scss:defaults --*/
+
+$font-family-sans-serif: "Roboto", sans-serif;
+$presentation-heading-color: #223451;
+$presentation-heading-line-height: 1.2;
+$presentation-title-slide-text-align: left;
+$code-block-font-size: 0.6em;
+$code-color: #5f5f5f;
+$presentation-h1-font-size: 1.5em;
+$presentation-h2-font-size: 1.3em;
+
+/*-- scss:rules --*/
+
+.inline{
+  margin: 0!important;
+  // height: 30px;
+}
+
+/*-- light theme (default) --*/
+
+.slide-background-content{
+  background-image: url(img/bg_light.png);
+  background-size: contain !important;
+  background-position: bottom right !important;
+}
+
+.date {
+  font-size: 0.7em;
+  font-weight: 100;
+}
+
+details>summary {
+  font-size: 0.75em;
+}
+
+.reveal .slide-menu-button .fa-bars::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(34, 52, 81)" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg>') !important;
+}
+
+/*-- dark theme --*/
+
+.inverse {
+  color: #ffff;
+  h1, h2, h3 {
+    color: #ffff;
+  }
+  .slide-background-content{
+    background-color: #223451;
+    background-image: url(img/bg_dark.png);
+    background-size: contain !important;
+    background-position: bottom right !important;
+  }
+
+  a {
+    color: white;
+  }
+
+  p code {
+    color: white;
+  }
+
+}
+
+
+/*-- font size of the slide --*/
+
+.small {
+  font-size: 0.75em;
+}
+
+.big {
+  font-size: 1.75em;
+}
+
+.reveal .slide .in-out {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 1em;
+  background: #E8E8E8;
+  font-family: $font-family-monospace;
+  font-size: 0.6em;
+}
+
+.reveal .slide .goal {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 1em;
+  background: #ccddeb;
+}
+
+.reveal .slide aside,
+.reveal .slide div.aside {
+  font-size: 0.5em;
+  bottom: 0px;
+}
+
+.reveal .progress {
+  height: 1%;
+}
+
+.navigate-left .controls-arrow,
+.navigate-right .controls-arrow {
+  font-size: 90%;
+  color: grey;
+}
+
+#title-slide {
+  .quarto-title-authors {
+    justify-content: left;
+  
+    .quarto-title-author {
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
+    }
+  }
+}
+
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  color: #7e588aff;
+  height: 1%;
+}
+
+.reveal .slide-number > a[href*='title-slide'] {
+  display: none;
+}
+
+.reveal .slide-logo {
+  height: 90px !important;
+  width: 160px !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
