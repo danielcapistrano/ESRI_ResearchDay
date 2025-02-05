@@ -82,9 +82,28 @@ Image from Andreas Stöffelbauer: [How Large Language Models work](https://mediu
 
 - Half of workers from 11 occupations in Denmark use ChatGPT in their activities [@humlum_adoption_2024]
 
+## UK Audit
+
+::: {.columns}
+
+::: {.column width="30%"}
+
+![](img/illu_icoaudit.png)
+
+:::
+
+::: {.column width="70%"}
+
+> Several AI providers chose to estimate or infer people’s
+characteristics from their personal information [...] predicting the person’s gender and ethnicity – often from their name but sometimes also from elements of their candidate profile or application. (p. 22)
+
+:::
+
+:::
+
 ## Reducing bias 
 
-![](./img/eliminate_bias.png){width="60%"}
+![](./img/eliminate_bias.png){width="60%" fig-align="center"}
 
 :::aside
 Polli, Frida (2019). [Using AI to Eliminate Bias from Hiring](https://hbr.org/2019/10/using-ai-to-eliminate-bias-from-hiring). Harvard Business Review.
@@ -108,24 +127,7 @@ Polli, Frida (2019). [Using AI to Eliminate Bias from Hiring](https://hbr.org/20
 
 :::
 
-## UK Audit
 
-::: {.columns}
-
-::: {.column width="30%"}
-
-![](img/illu_icoaudit.png)
-
-:::
-
-::: {.column width="70%"}
-
-> Several AI providers chose to estimate or infer people’s
-characteristics from their personal information [...] predicting the person’s gender and ethnicity – often from their name but sometimes also from elements of their candidate profile or application. (p. 22)
-
-:::
-
-:::
 
 # Our study {.inverse}
 
