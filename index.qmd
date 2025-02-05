@@ -34,7 +34,7 @@ bibliography: LLM_Bias.bib
 
 ![](./img/illu_agenda.png){fig-align="center"}
 
-## Field experiment {.nostretch}
+## ESRI field experiment {.nostretch}
 
 <br>
 
